@@ -13,10 +13,10 @@ sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/11.0/odoo_in
 ##### 2. 修改相关参数：
 相关参数罗列如下:<br/>
 ```OE_USER``` 系统用户账号名称。<br/>
-```INSTALL_WKHTMLTOPDF``` set to ```False``` if you do not want to install Wkhtmltopdf, if you want to install it you should set it to ```True```.<br/>
+```INSTALL_WKHTMLTOPDF``` 默认为 ```False``` 如您要安装 Wkhtmltopdf依赖, 请设为 ```True```。<br/>
 ```OE_PORT``` odoo端口,比如 8069。<br/>
 ```OE_VERSION``` 所要安装的odoo版本号, 例如 ```11.0``` 表示 Odoo V11， ```10.0``` 表示 Odoo V10， ```8.0``` 表示 Odoo V8。<br/>
-```IS_ENTERPRISE``` 企业版 Enterprise version on top of ```11.0``` if you set it to ```True```, set it to ```False``` if you want the community version of Odoo 11.<br/>
+```IS_ENTERPRISE``` 企业版 ```11.0``` 则设为 ```True```, 若设为 ```False``` 表示安装的是社区版 Odoo 11。<br/>
 ```OE_SUPERADMIN``` 为odoo系统管理员比如admin<br/>
 
 #### 3. 给权限脚本运行：
